@@ -25,6 +25,10 @@ To fetch data about cat, just do this in your ruby code:
 
     fact, url = AdorableCat.get_cat_data
 
+To fetch facts about cats (default number_of_facts is 1):
+
+    facts = AdorableCat.get_cat_fact(number_of_facts)
+
 ## Contributing
 
 1. Fork it ( http://github.com/rishijain/adorable_cat/fork )
